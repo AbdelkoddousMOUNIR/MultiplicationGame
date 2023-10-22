@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Averia+Sans+Libre&family=Dancing+Script:wght@500&family=Kodchasan:wght@200&family=Laila&family=Pacifico&family=Qwitcher+Grypen:wght@700&family=Roboto:wght@300&family=Rochester&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(41, 41, 180);
+    display: flex;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+form fieldset {
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+form fieldset legend{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color: white;
+    font-family: "Laila" , cursive;
+}
+input , button {
+    padding: 10px;
+    margin-top: 35px;
+    outline: none;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: none;
+    color: rgb(41, 41, 180);
+}
+button{
+    background-color: white;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 1.3rem;
+    display: none;
+    margin-top: 5px;
+    font-family: "Laila" , cursive;
+}
+h3{
+    margin-top: 10px;
+    color: white;
+    font-family: "Laila" , cursive;
+}
+@media screen and (max-width : 800px) {
+    form fieldset {
+        width: 80%;
+        border: 2px solid white;
+        border-radius: 25px;
+    }
+}
